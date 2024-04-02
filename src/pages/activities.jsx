@@ -4,7 +4,7 @@ import './activities.css';
 const ActivitiesPage = ({ activities }) => {
   return (
     <div className="activities-container">
-      <h1 className="activities-heading">Activities</h1>
+      <h1 className="activities-heading"  style={{color: "darkblue"}}>Activities</h1>
       <ul className="activities-list">
         {activities.map((activity, index) => (
           <li key={index} className="activity-item">

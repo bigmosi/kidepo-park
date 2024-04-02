@@ -24,12 +24,12 @@ const ContactPage = () => {
   return (
     <div className="contact-page">
       <header>
-        <h1>Contact Us</h1>
+        <h1  style={{color: "darkblue"}}>Contact Us</h1>
         <p>Have questions or feedback? Get in touch with us!</p>
       </header>
       <main>
         <section>
-          <h2 style={{ textAlign: "center" }}>Contact Form</h2>
+          <h2 style={{ textAlign: "center", color: "darkblue" }}>Contact Form</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">Name:</label>

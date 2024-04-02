@@ -8,12 +8,12 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <header>
-        <h1>Welcome to Kidepo National Parks</h1>
+        <h1 style={{color: "darkblue"}}>Welcome to Kidepo National Parks</h1>
         <p>Explore the beauty of our national parks</p>
       </header>
       <main>
         <section>
-          <h2 style={{textAlign: "center"}}>Featured Parks</h2>
+          <h2 style={{textAlign: "center", color: "darkblue"}}>Featured Parks</h2>
           <div className="featured-parks">
             <div className="park-card">
               <img src={imageSrc} alt="Park 1" width={200} height={600} />
@@ -28,7 +28,7 @@ const HomePage = () => {
           </div>
         </section>
         <section style={{textAlign: "center"}}>
-          <h2>About Us</h2>
+          <h2  style={{color: "darkblue"}}>About Us</h2>
           <p>Learn more about our organization and mission.</p>
         </section>
       </main>

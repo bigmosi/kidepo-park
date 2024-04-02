@@ -21,16 +21,16 @@ const EventsPage = () => {
   return (
     <div className="events-page">
       <header>
-        <h1>Upcoming Events</h1>
+        <h1  style={{color: "darkblue"}}>Upcoming Events</h1>
         <p>Plan your visit to Kidepo National Park with these exciting events.</p>
       </header>
       <main>
         <section>
-          <h2>Events Schedule</h2>
+          <h2  style={{color: "darkblue"}}>Events Schedule</h2>
           <ul className="event-list">
             {events.map(event => (
               <li key={event.id}>
-                <h3>{event.title}</h3>
+                <h3  style={{color: "darkblue"}}>{event.title}</h3>
                 <p>Date: {event.date}</p>
                 <p>Location: {event.location}</p>
               </li>
