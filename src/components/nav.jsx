@@ -1,7 +1,6 @@
-// Navigation.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navigation.css'; // Import the CSS file for styling
+import './Navigation.css';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +31,9 @@ const Navigation = () => {
         </li>
         <li>
           <Link to="/contact" onClick={toggleMenu}>Contact Us</Link>
+        </li>
+        <li>
+          <Link to="/events" onClick={toggleMenu}>Events</Link>
         </li>
       </ul>
     </nav>
